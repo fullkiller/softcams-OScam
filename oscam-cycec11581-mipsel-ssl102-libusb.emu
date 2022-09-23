@@ -1,0 +1,4 @@
+emuname = oscam-cycec11581-mipsel-ssl102-libusb
+binname = oscam-cycec11581-mipsel-ssl102-libusb
+startcam = /usr/bin/oscam-cycec11581-mipsel-ssl102-libusb -b -r 2 -c /usr/keys/oscam_atv
+stopcam = killall -9 oscam-cycec11581-mipsel-ssl102-libusb 2>/dev/null
